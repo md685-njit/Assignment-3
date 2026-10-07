@@ -72,4 +72,4 @@
 ## Submission (4)
 
 - [2] The PDF includes your name, the commit SHA, and the final pytest output.
-- [2] The repository link opens for the instructor and is at the commit SHA in the PDF.
+- [2] The repository link.
