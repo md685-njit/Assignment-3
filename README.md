@@ -9,19 +9,6 @@ Starter repository for Assignment 3, Evidence to Executable Specification. `HAND
 - Git and a GitHub account.
 - Any AI chat assistant you may use under the course policy, for Part 6. No API key is needed.
 
-## Make your own private copy
-
-Create a new, empty, private repository on GitHub. Then copy this starter into it:
-
-```bash
-git clone <starter repository URL from Canvas> cs690-a3-intent-spec
-cd cs690-a3-intent-spec
-git remote set-url origin <your private repository URL>
-git push -u origin HEAD:main
-```
-
-On GitHub, open your repository's Settings, then Collaborators, and add the instructor's GitHub account named on Canvas. A repository the instructor cannot open counts as missing.
-
 ## Setup
 
 Create and activate a virtual environment, then install the pinned dependency:
@@ -59,16 +46,6 @@ assert ready is False
 ```
 
 The return type is `Disposition = Literal["active", "held", "releasable"]`, the Literal type from the Week 6 lecture. Times are whole minutes after the reservation start.
-
-## Submitting
-
-Commit and push your final work, then print the commit SHA to put in your PDF:
-
-```bash
-git rev-parse HEAD
-```
-
-The repository on GitHub must be at this commit when you submit.
 
 ## Repository map
 
