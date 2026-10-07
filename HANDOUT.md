@@ -17,6 +17,15 @@ The Week 5 lecture covered the path from an interview to evidence notes, user st
 
 The same skills carry over to your team project in Milestone 1, but this assignment is individual practice. Use the provided case. Do not substitute your team project for any part of it.
 
+## Why this matters at work
+
+- Product teams interview users before they build. The notes that reach engineers often contain the mistakes you will catch here: a compliment read as demand, a prediction read as behavior, one person's view read as everyone's.
+- Agile teams turn conversations into user stories and Given-When-Then criteria every sprint, and those criteria become the tests that decide when a ticket is done.
+- When an AI coding agent writes the code, a short spec with its open questions marked is what stops the agent from guessing and shipping the guess with passing tests.
+- Checking an AI summary or an AI review against the source is now routine work, and it is the same true or false positive judgment you make in Part 6.
+- Aviation, automotive, and medical-device software standards require tracing every requirement to its tests. The ledger adds a record of what AI produced and how it was checked, which is what lets a reviewer trust the work.
+
+
 ## What you are given
 
 This repository contains:
