@@ -1,6 +1,6 @@
 # CS 690 Assignment 3: Evidence to Executable Specification
 
-**100 points. Individual assignment. Due date posted on Canvas.**
+**100 points. Individual assignment.**
 
 ## Learning goals
 
@@ -19,7 +19,7 @@ The same skills carry over to your team project in Milestone 1, but this assignm
 
 ## What you are given
 
-This starter repository, `cs690-a3-intent-spec`, contains:
+This repository contains:
 
 - `transcripts/interview.txt`, one interview, case INT-01, with paragraph IDs P01 to P21.
 - `synthetic/synthetic_user_output.md`, one pre-generated synthetic-user response, SYN-01.
@@ -34,7 +34,7 @@ This starter repository, `cs690-a3-intent-spec`, contains:
 - `LEDGER.md`, the required provenance ledger.
 - `RUBRIC.md`, how the 100 points are awarded.
 
-`README.md` covers setup, how to make your private copy, and how to call the reference module. The only verification command you need is:
+`README.md` covers setup, and how to call the reference module. The only verification command you need is:
 
 ```bash
 python -m pytest -q
@@ -159,7 +159,7 @@ Fill in `LEDGER.md` as you work. At minimum, record the Part 6 AI audit and any 
 Submit exactly these two items on Canvas:
 
 1. One PDF report with your name, the submitted commit SHA, Parts 1 through 7, and the final pytest output.
-2. A link to your private repository, made from this starter as described in `README.md`. Add the instructor's GitHub account, named on Canvas, as a collaborator. The repository must be at the commit SHA in your PDF.
+2. A link to your public repository.
 
 A repository link the instructor cannot open counts as a missing repository submission.
 
