@@ -17,7 +17,7 @@ The Week 5 lecture covered the path from an interview to evidence notes, user st
 
 The same skills carry over to your team project in Milestone 1, but this assignment is individual practice. Use the provided case. Do not substitute your team project for any part of it.
 
-## Why this matters at work
+## Why this matters in REAL WORLD
 
 - Product teams interview users before they build. The notes that reach engineers often contain the mistakes you will catch here: a compliment read as demand, a prediction read as behavior, one person's view read as everyone's.
 - Agile teams turn conversations into user stories and Given-When-Then criteria every sprint, and those criteria become the tests that decide when a ticket is done.
