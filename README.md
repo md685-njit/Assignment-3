@@ -1,4 +1,4 @@
-# cs690-a3-intent-spec
+# cs690- Assignment 3
 
 Starter repository for Assignment 3, Evidence to Executable Specification. `HANDOUT.md` says what to do, and `RUBRIC.md` says how it is graded. This file covers setup and commands.
 
