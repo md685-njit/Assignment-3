@@ -1,0 +1,45 @@
+Case ID: INT-01
+Domain: University media equipment reservation and pickup
+Participants: Dana Park, interviewer; Jordan Lee, Media Lab checkout coordinator; Priya Shah, student borrower
+
+[P01] Dana: I want to understand what happens now when students reserve cameras, microphones, or lighting kits and then come to pick them up. I am not looking for feature ideas yet. Could you walk me through a normal reservation from the point where a student books it to the point where the equipment leaves the desk?
+
+[P02] Jordan: Sure. A student reserves a kit for a start time. The equipment technicians pull it from storage, check the battery and accessories, and attach a paper reservation slip. At the desk, we look up the student's name, check the university ID, and mark the reservation picked up. If the student is on time, it is very routine. The problems are mostly when the student is late, when a class runs over, or when someone on the waitlist is standing there asking whether the kit is available yet.
+
+[P03] Dana: Think about the last late pickup you handled. What happened, step by step?
+
+[P04] Jordan: Yesterday we had a mirrorless camera kit reserved for 2:00. The student called the desk at 2:08 and said a lab was running long. I wrote "hold until 2:25" on the paper slip and told the other desk worker not to release it. The equipment technicians had already packed the kit, so it stayed on the pickup shelf. At 2:22 the student arrived, we checked the ID, and the reservation was completed. The phone call mattered because otherwise we would have treated it as a no-show after the grace period.
+
+[P05] Dana: What is the grace period now?
+
+[P06] Jordan: The current policy is 15 minutes after the reservation start. At 15 minutes, if there is no check-in and no recorded hold, we can release the kit. The system should use whatever grace value the lab has configured, because the manager has changed the policy before.
+
+[P07] Jordan: If someone is only a little late, we try not to give the kit away. That is where people get upset, especially if they were already walking over from another building.
+
+[P08] Dana: What happens when you do release a kit?
+
+[P09] Jordan: We mark the reservation as released, but the physical kit is not always ready for the next person that second. Sometimes the equipment technicians have to move it back from the pickup shelf, replace a missing battery, or confirm that the accessories on the reservation match what is in the bag. The desk has learned not to promise the next person that a kit is ready until the technicians finish that check. On a busy afternoon, the waitlist person may already be at the counter while that is happening.
+
+[P10] Jordan: They should get a message before it goes to the waitlist. Right now we juggle the phone, email, and the person at the desk.
+
+[P11] Dana: Priya, can you tell me about a time when a late pickup caused a problem for you? Please use the most recent example you remember.
+
+[P12] Priya: The desk's rule is 20 minutes. I have been told that twice, including when I picked up a recorder in March. I plan around that because my design studio is across campus. I do not know whether it changed, but 20 is the number students hear.
+
+[P13] Priya: The clearest problem was last Thursday. I had a lighting kit booked for 3:00 for a 4:00 interview shoot. My class in Fenster ran until 3:11. I called the media lab at 3:13, but the line was busy twice. I reached the desk at 3:16. The reservation had already been released. A waitlisted student was there, but the kit was still behind the counter because the equipment technicians were checking one of the light stands. I showed the confirmation email and explained the class delay. The desk worker called Jordan, then wrote my name on a paper list. I waited until 3:38, when another kit came back. I took that one, walked to the interview room, and started setup at 3:52. We began the interview about ten minutes late. The confirmation email, call history, and paper list each showed only part of the sequence.
+
+[P14] Priya: Honestly, a reservation dashboard that fixed all of this would be amazing.
+
+[P15] Priya: If there were a "running late" button, I would probably use it every time I was delayed. It would be easier than calling when the desk line is busy.
+
+[P16] Dana: When a reservation is released, what do you expect to happen from the student's point of view?
+
+[P17] Priya: I want to know whether I still have the reservation before I cross campus. If I have already checked in at the desk, it should not suddenly disappear because the clock passed the grace window. If staff have recorded that they are holding it for me, I would expect the hold to count. For a kit that is released, I would rather the system say "not yet ready" than send someone from the waitlist to the desk while the equipment technicians are still repacking it. I do not know what signal the technicians use internally, though.
+
+[P18] Dana: Jordan, what information would you want preserved if this process moved out of paper notes?
+
+[P19] Jordan: I would want the reservation start time, whether the student checked in, whether staff entered a temporary hold and until when, when the reservation became releasable, and whether the kit is actually ready for the next checkout. I would also want the reason for a manual hold in case we have to explain a decision later. The equipment technicians need some way to mark the preparation step, but I cannot tell you what screen or workflow would work for them. We have not asked them yet.
+
+[P20] Dana: Is there anything else about late reservations that changes the requirements?
+
+[P21] Jordan: The important thing is that the software should not invent policy. The grace value can change. Staff sometimes extend a reservation after a student contacts us, and a checked-in reservation should remain active. The waitlist should only see equipment that is actually ready to hand out. Beyond that, I would want us to ask the equipment technicians before deciding how their part of the process works.

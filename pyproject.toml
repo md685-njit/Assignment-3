@@ -1,0 +1,9 @@
+[project]
+name = "cs690-a3-intent-spec"
+version = "1.0.0"
+requires-python = ">=3.11"
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+addopts = "-ra"
